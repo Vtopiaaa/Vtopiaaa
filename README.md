@@ -1,96 +1,124 @@
-<!-- VTOPIAAA — personal engineering field notes -->
+<!-- VTOPIA / INDEPENDENT ENGINEERING -->
 <div align="center">
 
-<img src="./background.png" width="100%" alt="Golden and blue storm clouds under a dark sky, with the Vtopiaaa emblem in the upper right." />
+<img src="./background.png" width="100%" alt="Vtopia — atmospheric cloud painting in navy, cream and copper." />
+
+<img src="./assets/field-notes.svg" width="100%" alt="Vtopia Field Notes — 2026 to infinity" />
 
 <br />
 
-<sub>INDEPENDENT ENGINEERING  /  WORKSHOP NOTES</sub>
+**SOFTWARE, HARDWARE, AND THE SPACE BETWEEN THEM.**
 
-# VTOPIAAA
-
-**Software, hardware, and the space between them.**
-
-<em>Building systems. Questioning assumptions. Documenting the process.</em>
-
-<br />
-
-`SYSTEMS` &nbsp; `AUDIO` &nbsp; `INTERFACES` &nbsp; `EMBEDDED`
-
-<br />
-
-<img src="./assets/divider.svg" width="85%" alt="" />
+<sub>Independent engineering &nbsp;·&nbsp; Experimental systems &nbsp;·&nbsp; Human–computer interfaces</sub>
 
 </div>
 
-### 00 — The workshop
-
-I'm an independent developer exploring **software architecture, embedded electronics, signal processing, and human–computer interfaces**.
-
-My projects do not all belong to one discipline. What connects them is an interest in **systems that can be understood, controlled, measured, and improved** — from local-first music software to multi-agent workflows and wearable interfaces.
-
-This is a place for both **working prototypes and work in progress**. I try to keep the distinction visible.
-
 <br />
 
-### 01 — Selected projects
+### 00 / ABOUT
+
+I make experimental software and hardware — from local-first applications and Linux interfaces to voice systems, audio processing, and agent orchestration.
+
+I care about how things are **built**, how they **actually behave**, and whether people can **understand and shape** the tools they use.
+
+Think of this profile as a **workshop archive**: part portfolio, part engineering notebook. Not everything here is finished, and that is intentional.
+
+---
+
+### 01 / THE WORKSHOP
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>01 / AI SYSTEMS · DEVELOPER TOOLS</sub>
-      <h3>EPSALON Runtime</h3>
-      <p>A multi-agent execution platform for turning development requests into explicit tasks, dependencies, budget decisions, and reviewable outcomes.</p>
-      <p><b>Built so far:</b> persistent execution states, dependency handling, budget reservations, recovery concepts, and approval checkpoints.</p>
-      <p><sub>IN DEVELOPMENT · OpenCode plugin is the first interface, not the entire architecture.</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <sub>02 / LOCAL-FIRST SOFTWARE · MUSIC</sub>
-      <h3>Saye</h3>
-      <p>A Linux-first music player designed around a personal music library, not a mandatory online service.</p>
-      <p><b>Built so far:</b> library indexing, SQLite caching, metadata and artwork handling, playback queues, lyrics, search, and customizable views.</p>
-      <p><sub>IN DEVELOPMENT · Independent Soulseek networking and synchronization are still experimental.</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <sub>03 / SIGNAL PROCESSING · RESEARCH</sub>
-      <h3>ThinkBook Audio</h3>
-      <p>Measurement-led experiments in content-aware, history-dependent audio processing on Linux, with separate treatments for laptop speakers and headphones.</p>
-      <p><b>Current questions:</b> reproducibility, level matching, generalization, and dependable real-time operation.</p>
-      <p><sub>EXPERIMENTAL · An investigation of observed behaviour, not a clone of proprietary Dolby technology.</sub></p>
-    </td>
-    <td valign="top">
-      <sub>04 / VOICE · AUTOMATION</sub>
-      <h3>AELİTA</h3>
-      <p>A configurable voice assistant infrastructure for Android and Linux, separating speech capture, transcription, workflows, and response playback.</p>
-      <p><b>Built so far:</b> client interfaces, configurable HTTP/n8n routes, speech services, and optional speaker identification.</p>
-      <p><sub>IN DEVELOPMENT · Device and service integrations still need real-world validation.</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <sub>05 / WEARABLE COMPUTING · HCI</sub>
-      <h3>LiShl</h3>
-      <p>An experimental wearable interface system, developed through iterative hardware and interaction-design work.</p>
-      <p><b>Current direction:</b> exploring practical ways to bring interaction beyond conventional screens.</p>
-      <p><sub>EARLY DEVELOPMENT · Public technical documentation to follow.</sub></p>
-    </td>
-    <td valign="top">
-      <sub>06 / LINUX · DESKTOP INTERFACES</sub>
-      <h3>EPSALON Shell</h3>
-      <p>A personal Linux desktop environment built with Quickshell, shaped around a Hyprland workflow.</p>
-      <p><b>Current direction:</b> refining quick actions, Wi-Fi controls, window behaviour, and interface consistency.</p>
-      <p><sub>IN DEVELOPMENT · Release and installation instructions to follow.</sub></p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+<sub>01 &nbsp; / &nbsp; DEVELOPER SYSTEMS</sub>
+
+#### EPSALON Runtime
+
+A modular multi-agent orchestration system for software development, organizing tasks, dependencies, execution states, budgets and human approval.
+
+**Now exploring:** verified execution, failure recovery, and an interface-independent core.
+
+<sub>STATUS: ACTIVE DEVELOPMENT</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<sub>02 &nbsp; / &nbsp; MUSIC SOFTWARE</sub>
+
+#### Saye
+
+A Linux-first, local-first music player built around personal libraries, metadata, artwork, queues, lyrics and flexible presentation.
+
+**Now exploring:** large-library performance and independent networking experiments.
+
+<sub>STATUS: ACTIVE DEVELOPMENT</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<sub>03 &nbsp; / &nbsp; AUDIO RESEARCH</sub>
+
+#### ThinkBook Audio
+
+Experiments with content-aware and history-dependent audio processing on Linux, informed by measurements and listening tests.
+
+**Now exploring:** reproducible results and dependable, device-specific processing.
+
+<sub>STATUS: EXPERIMENTAL RESEARCH</sub>
+
+</td>
+<td valign="top">
+
+<sub>04 &nbsp; / &nbsp; VOICE & AUTOMATION</sub>
+
+#### AELİTA
+
+Modular voice assistant infrastructure connecting audio capture, transcription, configurable HTTP/n8n workflows and speech output.
+
+**Now exploring:** more reliable on-device and everyday integration.
+
+<sub>STATUS: ACTIVE DEVELOPMENT</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<sub>05 &nbsp; / &nbsp; WEARABLE INTERFACES</sub>
+
+#### LiShl
+
+An experimental wearable interface project, where physical prototyping meets human–computer interaction.
+
+**Now exploring:** interaction design and iterative hardware development.
+
+<sub>STATUS: EARLY DEVELOPMENT</sub>
+
+</td>
+<td valign="top">
+
+<sub>06 &nbsp; / &nbsp; LINUX DESKTOP</sub>
+
+#### EPSALON Shell
+
+A personal Quickshell/Hyprland desktop environment built around quick actions, everyday controls and a coherent interface.
+
+**Now exploring:** interaction reliability, usability and component refinement.
+
+<sub>STATUS: ACTIVE DEVELOPMENT</sub>
+
+</td>
+</tr>
 </table>
 
-<div align="center">
-  <img src="./assets/divider.svg" width="85%" alt="" />
-</div>
+<sub>Project repositories, verified measurements, and screenshots will be linked here as they become ready for public release. Descriptions reflect work in progress rather than finished commercial products.</sub>
 
-### 02 — Engineering notes
+---
+
+### 02 / METHOD
 
 <table>
 <tr>
@@ -98,46 +126,34 @@ This is a place for both **working prototypes and work in progress**. I try to k
 
 **OBSERVE**
 
-Start with the actual behaviour, not an assumed explanation.
+Understand the real behaviour of a system.
 
 </td>
 <td width="33%" valign="top">
 
 **BUILD**
 
-Keep components separable, inspectable, and replaceable.
+Make components inspectable and replaceable.
 
 </td>
 <td width="33%" valign="top">
 
 **VERIFY**
 
-Distinguish a promising demonstration from a reproducible result.
+Test the result, document the limits, iterate.
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>Fields of interest</b></summary>
+<summary><b>03 / Areas of interest</b></summary>
 
 <br />
 
-- Multi-agent orchestration and software execution safety
-- Embedded hardware, prototyping, and wearable systems
-- Digital signal processing and measurement
-- Offline-capable software and personal voice interfaces
-- Linux desktop engineering and interface design
-- Industrial design, technology history, and imagined futures
+`MULTI-AGENT SYSTEMS` &nbsp; `EMBEDDED` &nbsp; `DSP` &nbsp; `LINUX` &nbsp; `HCI` &nbsp; `INDUSTRIAL DESIGN`
 
-</details>
-
-<details>
-<summary><b>About the projects listed here</b></summary>
-
-<br />
-
-The descriptions reflect development work and project notes, **not claims that every system is released, independently verified, or production-ready**. Source repositories, screenshots, measurements, and installation instructions will be added as they become ready for publication.
+I am especially drawn to independent tools, experimental interfaces, technology history, and alternative futures.
 
 </details>
 
@@ -145,8 +161,8 @@ The descriptions reflect development work and project notes, **not claims that e
 
 <div align="center">
 
-<img src="./assets/divider.svg" width="85%" alt="" />
+<img src="./assets/divider.svg" width="80%" alt="" />
 
-<sub>VTOPIAAA  ·  ALWAYS UNDER CONSTRUCTION</sub>
+<sub>VTOPIA &nbsp;·&nbsp; ALWAYS UNDER CONSTRUCTION</sub>
 
 </div>
