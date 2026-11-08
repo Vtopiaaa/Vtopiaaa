@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="72" viewBox="0 0 1100 72" role="img" aria-label="Vtopia Field Notes 2026 to infinity">
+<style>
+  .ink { fill: #4B4130; }
+  .rule { stroke: #8F7958; }
+  @media (prefers-color-scheme: dark) {
+    .ink { fill: #E4CEA7; }
+    .rule { stroke: #C9AF84; }
+  }
+</style>
+<path d="M28 16 H1072 M28 56 H1072" class="rule" stroke-opacity=".48"/>
+<circle cx="44" cy="36" r="4" class="ink"/>
+<text x="64" y="42" font-family="JetBrains Mono, monospace" font-size="21" letter-spacing="2" class="ink">VTOPIA / FIELD NOTES</text>
+<text x="1070" y="42" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="16" letter-spacing="2" class="ink">2026  —  ∞</text>
+</svg>
