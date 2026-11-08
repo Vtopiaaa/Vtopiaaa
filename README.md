@@ -147,6 +147,6 @@ The descriptions reflect development work and project notes, **not claims that e
 
 <img src="./assets/divider.svg" width="85%" alt="" />
 
-<sub>VTOPIAAA  ·  WORK IN PROGRESS</sub>
+<sub>VTOPIAAA  ·  ALWAYS UNDER CONSTRUCTION</sub>
 
 </div>
