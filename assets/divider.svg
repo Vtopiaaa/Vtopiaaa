@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="32" viewBox="0 0 1100 32" role="img" aria-label="Decorative gold technical divider">
+<rect width="1100" height="32" fill="none"/>
+<path d="M0 16 H458 M642 16 H1100" stroke="#B69B74" stroke-opacity=".65" stroke-width="1"/>
+<path d="M483 16 l16 -10 16 10 -16 10 Z M585 16 l16 -10 16 10 -16 10 Z" fill="none" stroke="#D8BE95" stroke-width="1.5"/>
+<path d="M515 16 H585" stroke="#D8BE95" stroke-width="1.5"/>
+<circle cx="550" cy="16" r="4" fill="#D8BE95"/><circle cx="466" cy="16" r="2" fill="#D8BE95"/><circle cx="634" cy="16" r="2" fill="#D8BE95"/>
+</svg>
