@@ -3,7 +3,7 @@
 
 <img src="./23.png" width="100%" alt="Vtopia — illustrated storm clouds with a cream geometric emblem." />
 
-<img src="./assets/field-notes.svg" width="100%" alt="Vtopia Field Notes — 2026 to infinity" />
+<img src="./assets/field-notes-v2.svg" width="100%" alt="Vtopia Field Notes — 2026 to infinity" />
 
 <br />
 
