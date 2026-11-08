@@ -1,134 +1,152 @@
-<!-- VTOPIAAA / PROFILE -->
-
+<!-- VTOPIAAA — personal engineering field notes -->
 <div align="center">
 
-<img src="./background.png" width="100%" alt="Vtopiaaa — illuminated clouds against a dark sky, with a geometric emblem." />
+<img src="./background.png" width="100%" alt="Golden and blue storm clouds under a dark sky, with the Vtopiaaa emblem in the upper right." />
+
+<br />
+
+<sub>INDEPENDENT ENGINEERING  /  WORKSHOP NOTES</sub>
 
 # VTOPIAAA
 
-**Independent engineering · Experimental systems · Human-centered tools**
+**Software, hardware, and the space between them.**
 
-*Exploring what can be built, measured, and imagined.*
+<em>Building systems. Questioning assumptions. Documenting the process.</em>
 
-`MULTI-AGENT SYSTEMS` &nbsp; · &nbsp; `AUDIO ENGINEERING` &nbsp; · &nbsp; `LINUX` &nbsp; · &nbsp; `EMBEDDED HARDWARE`
+<br />
+
+`SYSTEMS` &nbsp; `AUDIO` &nbsp; `INTERFACES` &nbsp; `EMBEDDED`
+
+<br />
+
+<img src="./assets/divider.svg" width="85%" alt="" />
 
 </div>
 
----
+### 00 — The workshop
 
-### About
+I'm an independent developer exploring **software architecture, embedded electronics, signal processing, and human–computer interfaces**.
 
-I build experimental software and hardware systems, with an interest in **transparent architectures, independent tools, and interfaces that people can shape for themselves**.
+My projects do not all belong to one discipline. What connects them is an interest in **systems that can be understood, controlled, measured, and improved** — from local-first music software to multi-agent workflows and wearable interfaces.
 
-My projects span agent orchestration, local-first music software, audio signal processing, voice interfaces, desktop environments, and wearable computing. I enjoy working at the boundary between practical engineering and open-ended exploration.
+This is a place for both **working prototypes and work in progress**. I try to keep the distinction visible.
 
-This profile is **a workshop notebook as much as a portfolio**: prototypes, working systems, unresolved questions, and the engineering decisions behind them.
+<br />
 
-### Selected work
+### 01 — Selected projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>01 / AI SYSTEMS · DEVELOPER TOOLS</sub>
+      <h3>EPSALON Runtime</h3>
+      <p>A multi-agent execution platform for turning development requests into explicit tasks, dependencies, budget decisions, and reviewable outcomes.</p>
+      <p><b>Built so far:</b> persistent execution states, dependency handling, budget reservations, recovery concepts, and approval checkpoints.</p>
+      <p><sub>IN DEVELOPMENT · OpenCode plugin is the first interface, not the entire architecture.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>02 / LOCAL-FIRST SOFTWARE · MUSIC</sub>
+      <h3>Saye</h3>
+      <p>A Linux-first music player designed around a personal music library, not a mandatory online service.</p>
+      <p><b>Built so far:</b> library indexing, SQLite caching, metadata and artwork handling, playback queues, lyrics, search, and customizable views.</p>
+      <p><sub>IN DEVELOPMENT · Independent Soulseek networking and synchronization are still experimental.</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub>03 / SIGNAL PROCESSING · RESEARCH</sub>
+      <h3>ThinkBook Audio</h3>
+      <p>Measurement-led experiments in content-aware, history-dependent audio processing on Linux, with separate treatments for laptop speakers and headphones.</p>
+      <p><b>Current questions:</b> reproducibility, level matching, generalization, and dependable real-time operation.</p>
+      <p><sub>EXPERIMENTAL · An investigation of observed behaviour, not a clone of proprietary Dolby technology.</sub></p>
+    </td>
+    <td valign="top">
+      <sub>04 / VOICE · AUTOMATION</sub>
+      <h3>AELİTA</h3>
+      <p>A configurable voice assistant infrastructure for Android and Linux, separating speech capture, transcription, workflows, and response playback.</p>
+      <p><b>Built so far:</b> client interfaces, configurable HTTP/n8n routes, speech services, and optional speaker identification.</p>
+      <p><sub>IN DEVELOPMENT · Device and service integrations still need real-world validation.</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub>05 / WEARABLE COMPUTING · HCI</sub>
+      <h3>LiShl</h3>
+      <p>An experimental wearable interface system, developed through iterative hardware and interaction-design work.</p>
+      <p><b>Current direction:</b> exploring practical ways to bring interaction beyond conventional screens.</p>
+      <p><sub>EARLY DEVELOPMENT · Public technical documentation to follow.</sub></p>
+    </td>
+    <td valign="top">
+      <sub>06 / LINUX · DESKTOP INTERFACES</sub>
+      <h3>EPSALON Shell</h3>
+      <p>A personal Linux desktop environment built with Quickshell, shaped around a Hyprland workflow.</p>
+      <p><b>Current direction:</b> refining quick actions, Wi-Fi controls, window behaviour, and interface consistency.</p>
+      <p><sub>IN DEVELOPMENT · Release and installation instructions to follow.</sub></p>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="85%" alt="" />
+</div>
+
+### 02 — Engineering notes
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-#### 01 / EPSALON Runtime
-**Multi-agent orchestration · Developer tooling**
+**OBSERVE**
 
-Turns development requests into trackable tasks with dependencies, execution states, budgets, and approval checkpoints. The initial delivery path is an OpenCode plugin; the long-term architecture aims to keep the core independent of any one interface.
-
-**Current focus:** real tool execution, independent verification, and safe recovery after interrupted or uncertain operations.
-
-<sub>Active development · Not yet an end-to-end autonomous software developer</sub>
+Start with the actual behaviour, not an assumed explanation.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-#### 02 / Saye
-**Local-first music · Linux desktop**
+**BUILD**
 
-An independent music player with library scanning, SQLite caching, metadata and artwork management, search, playback queues, lyrics, and a customizable interface.
-
-**Current focus:** performance on large libraries and a standalone Soulseek networking engine that is separate from local playback.
-
-<sub>Active development · Native networking and sync remain experimental</sub>
+Keep components separable, inspectable, and replaceable.
 
 </td>
-</tr>
-<tr>
-<td valign="top">
+<td width="33%" valign="top">
 
-#### 03 / ThinkBook Audio
-**Audio DSP · Measurement & experimentation**
+**VERIFY**
 
-Research and implementation exploring content-dependent, history-aware audio processing on Linux. Measurements and listening evaluations inform separate processing paths for laptop speakers and headphones.
-
-**Current focus:** reproducible measurement, generalization across content, and reliable live operation.
-
-<sub>Experimental research · No claim of reproducing proprietary Dolby algorithms</sub>
-
-</td>
-<td valign="top">
-
-#### 04 / AELİTA
-**Voice interfaces · Android & Linux · Automation**
-
-A modular personal voice assistant platform connecting microphone input, speech transcription, optional speaker identification, configurable HTTP/n8n workflows, and speech output.
-
-**Current focus:** more reliable everyday integration and testing across actual devices and services.
-
-<sub>Active development · Some device and service paths still require validation</sub>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-#### 05 / LiShl
-**Wearable computing · Human–computer interaction**
-
-An experimental wearable interface system exploring ways to bring digital interaction closer to the body.
-
-**Current focus:** iterative prototyping and interface design.
-
-<sub>In development · Technical details and public artifacts to follow</sub>
-
-</td>
-<td valign="top">
-
-#### 06 / EPSALON Shell
-**Linux desktop · Quickshell · Interaction design**
-
-A custom desktop shell for a Linux/Hyprland workflow, exploring personalized controls, quick actions, and a coherent everyday interface.
-
-**Current focus:** usability, reliable interactions, and refinement of individual components.
-
-<sub>In development · Public release details to follow</sub>
+Distinguish a promising demonstration from a reproducible result.
 
 </td>
 </tr>
 </table>
 
-### How I work
-
-**Build → observe → measure → revise.**
-
-I prefer explaining what a system **currently does**, what has **actually been tested**, and what remains **unfinished**. A convincing prototype is useful; a reproducible result is better.
-
 <details>
-<summary><b>Research & engineering interests</b></summary>
+<summary><b>Fields of interest</b></summary>
 
 <br />
 
-- Multi-agent orchestration, execution safety, and developer tools
-- Embedded electronics and prototyping
-- Audio measurement, digital signal processing, and local voice systems
-- Linux desktop software and interaction design
-- Wearable computing and human–computer interfaces
-- Technology history, industrial design, and alternative futures
+- Multi-agent orchestration and software execution safety
+- Embedded hardware, prototyping, and wearable systems
+- Digital signal processing and measurement
+- Offline-capable software and personal voice interfaces
+- Linux desktop engineering and interface design
+- Industrial design, technology history, and imagined futures
 
 </details>
 
----
+<details>
+<summary><b>About the projects listed here</b></summary>
+
+<br />
+
+The descriptions reflect development work and project notes, **not claims that every system is released, independently verified, or production-ready**. Source repositories, screenshots, measurements, and installation instructions will be added as they become ready for publication.
+
+</details>
+
+<br />
 
 <div align="center">
-<sub>VTOPIAAA · An evolving collection of experiments and working systems.</sub>
+
+<img src="./assets/divider.svg" width="85%" alt="" />
+
+<sub>VTOPIAAA  ·  WORK IN PROGRESS</sub>
+
 </div>
