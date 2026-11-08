@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./assets/vtopiaaa-clouds.png" width="100%" alt="Vtopiaaa — illuminated clouds against a dark sky, with a geometric emblem." />
+<img src="./background.png" width="100%" alt="Vtopiaaa — illuminated clouds against a dark sky, with a geometric emblem." />
 
 # VTOPIAAA
 
